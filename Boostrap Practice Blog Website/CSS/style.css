@@ -1,0 +1,56 @@
+*{
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fuggles', cursive;
+        font-family: 'Martian Mono', monospace;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Pixelify Sans', cursive;
+        font-family: 'PT Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+.travel-img:hover, .popular-img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.5s;
+ 
+}
+.slide-image{
+height: 400px !important;    
+width: 1100px !important;
+}
+::selection{
+    background-color: rgb(243, 67, 67);
+    color: white;
+}
+.travel-img{
+    margin: auto; 
+    display: block;
+}
+.image-title{
+    font-size: 20px;
+    font-weight: bold !important;
+    color: black; 
+     
+}
+.author{
+    font-size: 0.7rem;
+    color: #999;
+
+}
+.author-name
+{
+    color: tomato;
+    
+}
+.blog-description{
+    font-size: 0.9rem;
+    color: hsl(0, 41%, 3%); 
+    text-align: justify;
+   
+   
+}
+.image-title, .author, .author-name, .popular-img, .blog-description, .travel-img:hover{
+    cursor: pointer;
+}
+
+
